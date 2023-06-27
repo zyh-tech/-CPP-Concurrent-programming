@@ -13,4 +13,3 @@ int main(){
     thread t(f,3,str);
     t.join();
     return 0;
-}
