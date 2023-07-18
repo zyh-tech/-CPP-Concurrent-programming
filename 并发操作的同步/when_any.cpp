@@ -5,7 +5,7 @@ std::experimental::when_any()针对多个future,此函数创建一个新的futur
 组成，其中序列包含传入的全体future，索引值表明哪个就绪
 */
 
-        std::experimental::future<FinalResult>
+    std::experimental::future<FinalResult>
     find_and_process_value(std::vector<MyData> &data)
     {
       unsigned const concurrency = std::thread::hardware_concurrency();

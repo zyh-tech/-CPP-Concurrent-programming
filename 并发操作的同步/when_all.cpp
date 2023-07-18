@@ -30,9 +30,3 @@
           });
     }
 
-/*
-std::experimental::when_any()针对多个future,此函数创建一个新的future，并与他们
-有所关联，若其中一个就绪，此新的future也会随之就绪。
-他返回std::experimental::when_any_result<>而产生的内部实例，改实例由一个序列和一个索引值
-组成，其中序列包含传入的全体future，索引值表明哪个就绪
-*/
