@@ -1,3 +1,6 @@
+//future对象可以在线程间传递，使得一个计算任务依赖于另一个任务的计算结果，却不必显示访问共享数据
+
+
 #include<list>
 #include<algorithm>
 #include<future>
